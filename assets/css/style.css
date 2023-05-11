@@ -1,0 +1,83 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.ts-1{font-size: 1.5rem;}.ts-2{font-size: 2rem;}.ts-3{font-size: 3rem;}.ts-4{font-size: 3.5rem;}
+
+
+main{
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+
+.city{
+    font-size: 3rem!important;
+}
+
+
+#city-modal-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 99;
+}
+
+#city-modal-input{
+    background-color: transparent;
+    color: #fff;
+    margin-right: -9px;
+    transition: background .3s;
+}
+#city-modal-input::placeholder{
+    color: #fff;
+}
+#city-modal-input:focus{
+    outline: none;
+}
+
+#city-modal-sub{
+    background-color: transparent;
+    margin: 0;
+    border-left: 3px solid #28a745;
+    transition: background .3s;
+}
+#city-modal-input:hover,#city-modal-sub:hover{
+    background: #28a745;
+}
+
+.modal-close{
+    z-index: 99;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: #dc3545;
+    transition: color .3s;
+}
+.modal-close:hover{
+    color: #8b1e1e;
+}
+
+
+#weather-icon{
+    font-size: 8rem;
+}
