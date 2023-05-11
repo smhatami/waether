@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How's the Weather</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+	<main class="d-flex flex-column justify-content-center align-items-center p-5">
+
+		<article class="city d-flex mb-2 align-items-center" id="city-name-box">
+			<h1 id="city" class="mr-4 pointer"></h1>
+			<i class="fa fa-pen pointer ts-1"></i>
+		</article>
+
+		<article id="date-box" class="mb-4">
+			<h6 id="date">Wednesday, May 10, 2023</h6>
+		</article>
+
+		<section class="d-flex flex-column align-items-center weather-condition">
+			<i id="weather-icon" class=""></i>
+			<p id="avg-temp" class="mt-2 ts-4"></p>
+			<article class="ts-1 mt-5 mb-3">
+				<span id="min-temp" class="mr-4"></span>
+				<span id="max-temp" class="ml-4"></span>
+			</article>
+			<h4 id="condition-name"></h4>
+		</section>
+
+	</main>
+
+	<!-- modal -->
+	<section id="city-modal-box" class="">
+		<article id="city-modal-container" class="ts-2 p-0">
+			<input type="text" class="text-center p-3 border-success rounded-pill" id="city-modal-input" placeholder="City ...">
+			<input type="button" class="p-3 text-white border-success rounded-pill" id="city-modal-sub" value="Submit">
+		</article>
+		<span class="modal-close ts-3">&#10008</span>
+	</section>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
