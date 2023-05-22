@@ -1,4 +1,5 @@
 // landing page elements:
+const prelooader = document.querySelector(".preloader")
 const main = document.getElementById("main")
 const cityBox = document.getElementById("city-name-box")
 const cityName = document.getElementById("city")
@@ -16,4 +17,4 @@ const cityModalSub = document.getElementById("city-modal-sub")
 const modalClose = document.getElementsByClassName("modal-close")
 
 
-export {cityBox,cityName,weatherIcon,avgTemp,minTemp,maxTemp,condition,cityModalBox,cityModalInput,cityModalSub,modalClose, date};
+export {prelooader,cityBox,cityName,weatherIcon,avgTemp,minTemp,maxTemp,condition,cityModalBox,cityModalInput,cityModalSub,modalClose, date};
