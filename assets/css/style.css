@@ -13,6 +13,15 @@
 
 .ts-1{font-size: 1.5rem;}.ts-2{font-size: 2rem;}.ts-3{font-size: 3rem;}.ts-4{font-size: 3.5rem;}
 
+.preloader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to bottom right, #9ec1e0,#39618b);
+    z-index: 1000!important;
+}
 
 main{
     height: 100vh;
