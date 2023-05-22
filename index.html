@@ -10,15 +10,24 @@
 </head>
 <body>
     
+	<!-- preloader -->
+	<div class="preloader d-flex justify-content-center align-items-center">
+        <img src="assets/images/preloader.gif" alt="preloader">
+    </div>
+	<!-- preloader End -->
+
+	<!-- main | content -->
 	<main class="d-flex flex-column justify-content-center align-items-center p-5">
 
 		<article class="city d-flex mb-2 align-items-center" id="city-name-box">
+			<!-- City name -->
 			<h1 id="city" class="mr-4 pointer"></h1>
 			<i class="fa fa-pen pointer ts-1"></i>
 		</article>
 
+		<!-- date -->
 		<article id="date-box" class="mb-4">
-			<h6 id="date">Wednesday, May 10, 2023</h6>
+			<h6 id="date"></h6>
 		</article>
 
 		<section class="d-flex flex-column align-items-center weather-condition">
@@ -32,15 +41,17 @@
 		</section>
 
 	</main>
+	<!-- main | content  End -->
 
 	<!-- modal -->
-	<section id="city-modal-box" class="">
+	<section id="city-modal-box" class="d-none">
 		<article id="city-modal-container" class="ts-2 p-0">
 			<input type="text" class="text-center p-3 border-success rounded-pill" id="city-modal-input" placeholder="City ...">
 			<input type="button" class="p-3 text-white border-success rounded-pill" id="city-modal-sub" value="Submit">
 		</article>
 		<span class="modal-close ts-3">&#10008</span>
 	</section>
+	<!-- modal End -->
 
   <script type="module" src="assets/js/app.js"></script>
 </body>
